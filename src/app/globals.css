@@ -9,3 +9,9 @@
 .logo {
   width: clamp(15%, 3vw, 100%);
 }
+
+.scrollbar-hidden ::-webkit-scrollbar {
+  height: 5px;
+  /* width: 0px; */
+  background-color: transparent;
+}

@@ -1,0 +1,16 @@
+.home-hero {
+    background-image: url('../assets/images/home-hero.svg');
+}
+
+.shop-hero {
+    background-image: url('../assets/images/shop-hero.svg');
+}
+.hero {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero h1{
+    font-size: 60px;
+}

@@ -4,7 +4,7 @@ import "./globals.css";
 import Nav from "@/components/general/Nav";
 
 export const metadata: Metadata = {
-  title: "Sleepstiq",
+  title: "Sleepstiq | Relax & Rest",
   description: "Relax & Rest",
 };
 

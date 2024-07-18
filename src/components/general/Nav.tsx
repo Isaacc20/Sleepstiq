@@ -21,7 +21,7 @@ const Nav = () => {
         <div className="flex lg:gap-16 mt-2">
           <Links path={"/"} content={"Home"} currentPath={currentPath} />
           <Links path={"#about"} content={"About"} currentPath={currentPath} />
-          <Links path={"/Shop"} content={"Shop"} currentPath={currentPath} />
+          <Links path={"/shop"} content={"Shop"} currentPath={currentPath} />
           <Links path={"/faqs"} content={"FAQs"} currentPath={currentPath} />
         </div>
       </div>
