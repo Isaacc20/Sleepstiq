@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 // COMPONENTS
-import Links from "@/ui/Links";
+import Links from "@/components/shared/Links";
 
 // IMAGES
 import logo from "@/assets/logo/logo_blue.svg";

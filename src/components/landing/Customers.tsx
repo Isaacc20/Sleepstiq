@@ -1,15 +1,16 @@
 import { poppinsBold, poppinsItalic, poppinsRegular } from "@/app/fonts";
-import Header from "@/ui/Header";
+import Header from "@/components/shared/header";
 import Image from "next/image";
 import React from "react";
+import { FaCaretRight } from "react-icons/fa"
 
 import user from "@/assets/images/user.svg";
 
 const Customers = () => {
   return (
     <>
-      <div className="flex pt-44 pb-36 justify-between">
-        <div className="max-w-[474px] flex flex-col gap-7">
+      <div className=" w-full flex flex-col md:flex-row justify-around lg:justify-start gap-7 md:gap-14 items-center pt-44 pb-36 pr-10">
+        <div className="w-3/4 md:max-w-[474px] flex flex-col gap-7">
           <span
             className={`${poppinsRegular.className} text-sm text-primary leading-5`}
           >
@@ -24,12 +25,12 @@ const Customers = () => {
             that fosters candid collaboration.
           </span>
           <p
-            className={`${poppinsBold.className} text-base leading-6 text-primary underline`}
+            className={`${poppinsBold.className} flex items-center text-base leading-6 text-primary underline`}
           >
-             More know About us
+            <FaCaretRight /> More know About us
           </p>
         </div>
-        <div className="max-w-[475px] bg-card shadow-2xl flex flex-col gap-14 pt-14 pb-10 pl-10">
+        <div className="w-3/4 md:max-w-[475px] bg-card shadow-2xl flex flex-col gap-14 pt-14 pb-10 pl-10">
           <span
             className={`${poppinsItalic.className} text-2xl text-reviews leading-10`}
           >

@@ -9,7 +9,7 @@ const Landing = () => {
   return (
     <>
       <Hero />
-      <div className="relative pl-[154px] flex flex-col">
+      <div className="relative md:pl-44 flex flex-col">
         <Partners />
         <Customers />
         <Testimonials />

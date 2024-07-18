@@ -12,7 +12,7 @@ const TestimonialCard = ({
 }) => {
   return (
     <>
-      <div className="w-[306px] aspect-video p-7 pr-2 bg-card flex flex-col justify-between rounded-lg">
+      <div className="w-[306px] min-w-72 aspect-video p-7 pr-2 bg-card flex flex-col justify-between rounded-lg">
         <span
           className={`${poppinsItalic.className} text-base leading-[26px] text-reviews`}
         >

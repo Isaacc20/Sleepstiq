@@ -11,15 +11,15 @@ import influencive from "@/assets/logo/influencive.svg";
 const Partners = () => {
   return (
     <>
-      <div className="w-full h-max">
-        <div className="absolute -top-16 right-0 flex justify-around items-center bg-white shadow-2xl py-10">
-          <Image src={google} alt="Google logo" />
-          <Image src={forbes} alt="Forbes logo" />
-          <Image src={bloomberg} alt="Bloomberg logo" />
-          <Image src={sleepReview} alt="Sleep review logo" />
-          <Image src={influencive} alt="Influencive logo" />
+      {/* <div className="h-max"> */}
+        <div className="w-3/4 md:w-fit absolute -top-16 right-[10%] md:right-0 left-[10%] md:left-[154px] flex justify-around items-center bg-white shadow-2xl py-10">
+          <Image className="logo" src={google} alt="Google logo" />
+          <Image className="logo" src={forbes} alt="Forbes logo" />
+          <Image className="logo" src={bloomberg} alt="Bloomberg logo" />
+          <Image className="logo" src={sleepReview} alt="Sleep review logo" />
+          <Image className="logo" src={influencive} alt="Influencive logo" />
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 };
