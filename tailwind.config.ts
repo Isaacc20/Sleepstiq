@@ -14,6 +14,7 @@ const config: Config = {
         'text': "#213842",
         'reviews': "#4D533C",
         'card': "#FBF9F2",
+        'footer': "#ABABAB",
         'white': "#FFFFFF"
       }
     },

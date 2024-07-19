@@ -7,7 +7,7 @@ import ProductAds from "./productAds";
 const Product = ({}) => {
   return (
     <>
-      <div className="w-full flex flex-col md:flex-row justify-around lg:justify-start gap-7 md:gap-14 items-center py-32">
+      <div className="w-full flex flex-col md:flex-row justify-around lg:justify-start gap-7 md:gap-14 items-center py-32" id="about">
         <div className="relative w-3/4 md:w-1/2">
           <Image src={shop} alt="shop img" />
           <ProductAds className={"absolute bottom-0 right-0 shadow-lg rounded-lg bg-white hidden md:flex p-8 pr-4"} />

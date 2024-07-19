@@ -18,6 +18,11 @@ export const poppinsBold = Poppins({
     subsets: ['latin']
 });
 
+export const poppinsSemiBold = Poppins({
+    weight: "600",
+    subsets: ['latin']
+});
+
 export const open_sans = Open_Sans({
     weight: "600",
     subsets: ['latin']

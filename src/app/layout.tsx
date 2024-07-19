@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { inter } from "./fonts";
+import { poppinsRegular } from "./fonts";
 import "./globals.css";
 import Nav from "@/components/general/Nav";
+import Footer from "@/components/general/Footer";
 
 export const metadata: Metadata = {
   title: "Sleepstiq | Relax & Rest",
@@ -15,9 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} overflow-x-hidden`}>
+      <body className={`${poppinsRegular.className} relative overflow-x-hidden`}>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

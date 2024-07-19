@@ -1,3 +1,4 @@
+import Footer from "@/components/general/Footer";
 import Nav from "@/components/general/Nav";
 import type { Metadata } from "next";
 
@@ -16,6 +17,7 @@ export default function RootLayout({
       <body className={`overflow-x-hidden`}>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
