@@ -29,10 +29,10 @@ const Nav = () => {
           <Links path={"/faqs"} content={"FAQs"} currentPath={currentPath} moreStyles={"hover:underline"} />
         </div>
         <button onClick={()=>open? setopen(false): setopen(true)} className="text-4xl text-primary md:hidden"><BiMenu /></button>
-        <div className={`${open? 'top-0': '-top-[320px]'} absolute left-0 right-0 w-full bg-white flex md:hidden flex-col items-stretch text-end`}>
+        <div className={`${open? 'top-0': '-top-[1000px]'} absolute left-0 right-0 w-full bg-white flex md:hidden flex-col items-stretch text-end`}>
           <Links path={"/"} content={"Home"} currentPath={currentPath} moreStyles={"p-5"} />
           <hr />
-          <Links path={currentPath == "/"? "#about": "/"} content={"About"} currentPath={currentPath} moreStyles={"p-5"} />
+          <Links path={"/#about"} content={"About"} currentPath={currentPath} moreStyles={"p-5"} />
           <hr />
           <Links path={"/shop"} content={"Shop"} currentPath={currentPath} moreStyles={"p-5"} />
           <hr />
