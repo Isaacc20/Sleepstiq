@@ -32,7 +32,7 @@ const Nav = () => {
         <div className={`${open? 'top-0': '-top-[1000px]'} absolute left-0 right-0 w-full bg-white flex md:hidden flex-col items-stretch text-end`}>
           <Links path={"/"} content={"Home"} currentPath={currentPath} moreStyles={"p-5"} />
           <hr />
-          <Links path={"/#about"} content={"About"} currentPath={currentPath} moreStyles={"p-5"} />
+          <Links path={"#about"} content={"About"} currentPath={currentPath} moreStyles={"p-5"} />
           <hr />
           <Links path={"/shop"} content={"Shop"} currentPath={currentPath} moreStyles={"p-5"} />
           <hr />
